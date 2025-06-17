@@ -7,3 +7,4 @@ sed -i "/ker_app/d" "$WORK_DIR/system/system/system_ext/etc/selinux/mapping/30.0
 sed -i "/kpp_app/d" "$WORK_DIR/system/system/system_ext/etc/selinux/mapping/30.0.cil"
 sed -i "/kpp_data_file/d" "$WORK_DIR/system/system/system_ext/etc/selinux/mapping/30.0.cil"
 sed -i "/uwb_regulation_skip_prop/d" "$WORK_DIR/system/system/system_ext/etc/selinux/mapping/30.0.cil"
+sed -i "/sbauth/d" "$WORK_DIR/system/system/system_ext/etc/selinux/mapping/31.0.cil"

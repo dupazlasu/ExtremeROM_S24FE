@@ -42,7 +42,7 @@ do
 done
 
 # Patch libstagefright.so to remove HDR10+ check
-HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
+#HEX_PATCH "$WORK_DIR/system/system/lib64/libstagefright.so" "010140f9cf390594a0500034" "010140f91f2003d51f2003d5"
 
 # Add prebuilt libs from other devices
 BLOBS_LIST="
@@ -82,7 +82,7 @@ do
 done
 
 # Polarr SDK
-ADD_TO_WORK_DIR "a26xxx" "system" "." 0 0 644 "u:object_r:system_file:s0"
+#ADD_TO_WORK_DIR "a26xxx" "system" "." 0 0 644 "u:object_r:system_file:s0"
 
 # Cleanup SamsungCamera OAT
 DELETE_FROM_WORK_DIR "system" "system/priv-app/SamsungCamera/oat"
