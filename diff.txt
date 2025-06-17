@@ -1,0 +1,2374 @@
+commit 8bb174db169afffa2bec4a60e424079e6177d609
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 15:32:43 2025 +0300
+
+    target: r9s: change CSC to THL
+    
+    * As it has a newer binary
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 383de1badbd9c2be9d16ab783a099cd14fc2bd11
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 15:24:49 2025 +0300
+
+    unica: config: bump to v2.0.0
+    
+    * Final v2 release :eyes:
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d6104bba5b1a52024504ce8c9cf011e3fc949892
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 15:17:37 2025 +0300
+
+    platform: squash revert encryption
+    
+    * Unfortunately for some reason it does not work on 9820
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 743fb1ec59109aa0d7383f6a952d197acba31f89
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:47:52 2025 +0300
+
+    unica: config: bump to alpha2
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5d0f45e5ec1a290cabbbbf4efe419d87aebc8186
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:57:53 2025 +0300
+
+    target: beyond*: add init.rc patches for FBEv2
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 9acd985eb51056f0b25a0e0dd25b3aca9305a753
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:57:32 2025 +0300
+
+    platform: exynos9820: miscs: fixup typo
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2d3dfab34053d486d6f91103c17b319941570290
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:46:44 2025 +0300
+
+    platform: exynos9820: patches: vendor: merge fstab changes
+    
+    * On this platform we still use custom fstab at the moment, TBD
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit ec19ad2852b9660120ec6b027d25884f69b6af03
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:46:28 2025 +0300
+
+    platform: exynos9820: miscs: fixup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 19e1e77edc363a90b00f20d1d600c600db929b7a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:43:31 2025 +0300
+
+    platform: exynos9820/990: add FBEv2 related props
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 8b3dcd62133375376260503285fb4fc5f9c8c38c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:41:14 2025 +0300
+
+    platform: exynos9820/990: add FS compression support for /userdata
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit a80506ea1712d25c1255d7bcb29806b6d8a168a4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 16 00:34:38 2025 +0300
+
+    platform: exynos9820: add /metadata in fstab
+    
+    Signed-off-by: Saad <saadelasfur@gmail.com>
+
+commit e6da60e5153d0b1a957c9c9a3e2d91f0a6735d6f
+Author: Saad <saadelasfur@gmail.com>
+Date:   Mon Jun 16 00:33:20 2025 +0300
+
+    platform: all: enable encryption and switch to FBE v2
+    
+    Signed-off-by: Saad <saadelasfur@gmail.com>
+
+commit 108485baecd9669d1b6902fe61a657f404a75934
+Author: Saad <saadelasfur@gmail.com>
+Date:   Mon Jun 16 00:32:11 2025 +0300
+
+    platform: exynos9820/exynos990: patches: miscs: burp
+    
+    Signed-off-by: Saad <saadelasfur@gmail.com>
+
+commit 0d2e3493096d8fa38bbf7646dda847e3d95c58e2
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 20:56:27 2025 +0300
+
+    workflows: add build.yml
+    
+    * Builds ExtremeROM for all supported devices in parallel and uploads the ZIP files to GoFile
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 8bfb4fc750064baf232e8b30b9ca2d7f8a769fb3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 22:42:01 2025 +0300
+
+    scripts: make_rom: cleanup kernel_tmp_dir and fw when using GH Actions
+    
+    Co-Authored-by: Saad <saadelasfur@gmail.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 9a16a3971f57903e95bc59e055dfec20b92944c1
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 22:43:50 2025 +0300
+
+    platform: exynos990: patches: vendor: fixup r8s
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 4ba0a4b9a20e7285483db5aa765b4c31c9d333c3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 18:43:43 2025 +0300
+
+    Revert "prebuilts/samsung/p3sxxx: update blobs to G998BXXSFHYE1"
+    
+    This reverts commit 5771de920a8c6e1149c6379b5680256325be7ad2.
+
+commit a281d93c160d2221091817c478ea0f7afc3661ce
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 18:43:31 2025 +0300
+
+    Revert "platform: exynos990: patches: vendor: pin RIL/RADIO to OneUI 6.1"
+    
+    This reverts commit 51cbb06236c2f34eaf91d429583f7830ca27bd05.
+
+commit 4c1198834753508aa2c1df1c68f8841a65b1220c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 11:55:14 2025 +0300
+
+    unica: mods: settings: remove extra screenshot detection patch
+    
+    * For some strange reason it replaces more code for some builders
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 51cbb06236c2f34eaf91d429583f7830ca27bd05
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 15 11:46:57 2025 +0300
+
+    platform: exynos990: patches: vendor: pin RIL/RADIO to OneUI 6.1
+    
+    * OneUI 7 RIL is broken on Note20 devices for some reason
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit dfb9a0e3a43b7c14719cd9f06aabe3f1557c7cab
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 23:03:41 2025 +0300
+
+    unica: config: bump to v2.0.0-alpha1
+    
+    * We are beginning official testing for version 2.0.0
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 0faa81313bcf1d354dd51a47fe47dbca28a802a0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 23:00:40 2025 +0300
+
+    target: z3s/c2s/p3s: add ExpertRAW spoof
+    
+    * Spoof to p3s for all since they nuked the older XML configs for ExpertRAW in OneUI 7
+    * It's not working perfectly on z3s/c2s but it is the best we can do
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 6168087b5cce4749675ea247c371fe233b3f47c4
+Author: Ocin4ever <winicoco24@gmail.com>
+Date:   Sat Jun 14 21:27:36 2025 +0200
+
+    unica: patches: knoxpatch: fix authorship
+
+commit 09c886c77b01c55273e0a36d1b0caf950791ad07
+Author: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat Jun 14 21:54:58 2025 +0200
+
+    unica: patches: knoxpatch: update SamsungPropsHooks
+    
+    * Spoof ro.product.product.name prop to ExpertRAW using ro.nexus.expertraw value
+
+commit ad4a7454a790896341cf7c2a1e7319d851748e3d
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 18:52:42 2025 +0000
+
+    prebuilts/samsung/r12sxxx: update blobs to S721BXXU4BYE7
+
+commit a1fd978e9ec0581b30caa58f09f44552dde0ba16
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 17:31:19 2025 +0300
+
+    unica: patches: desixtification: fix typo
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit cd1cc52451c7c22bbf0c9d57b6e8de803eaca9f8
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 17:27:11 2025 +0300
+
+    prebuilts: samsung: r12sxxx: split SamsungCamera.apk
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 7d1c57539673002c5703b1c2725cccd5d158d479
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 14 21:34:28 2025 +0800
+
+    target: r9s: fixup typo
+
+commit da81556b55a91f88fb9e6e5c5659b3bc22145951
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 12:57:17 2025 +0000
+
+    prebuilts/samsung/pa3qzcx: update blobs to S9380ZCS3AYDF
+
+commit 80b90f104b06f2d74255101713bb91805a485f8e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 12:08:27 2025 +0000
+
+    prebuilts/samsung/b6qxxx: update blobs to F956BXXS2BYDF
+
+commit 4d4b7ef4d59147756ec58f64e8868a92f04f3552
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 12:07:14 2025 +0000
+
+    prebuilts/samsung/dm3qxxx: update blobs to S918BXXS8DYDB
+
+commit 18619bcdd7600e69f9c06121b68ef5de934fcd80
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 11:57:08 2025 +0000
+
+    prebuilts/samsung/a73xqxx: update blobs to A736BXXUAFYE6
+
+commit 32e4e9cffde9582ee498b8ed7afb83c1293ecaf4
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 11:50:57 2025 +0000
+
+    prebuilts/samsung/a26xxx: update blobs to A266BXXU3AYE6
+
+commit 69a8e559125b1369b496a2996d1bc2dd8c189da1
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sat Jun 14 11:46:19 2025 +0000
+
+    prebuilts/samsung/gts10fewifixx: update blobs to X520XXU3AYE1
+
+commit 3b21a5df1ed7b447a13b62c843a46ab72eed6654
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 15:34:16 2025 +0300
+
+    unica: patches: desixtification: create symlinks manually
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 560d0f6c31224fa8f584be6dab28b421916e1fa4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 14:24:20 2025 +0300
+
+    unica: mods: settings: fix screenshot detection patch
+    
+    * Weirdly enough for some builders it would replace code in 6 other functions
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 573eedeb762f572fa26239b571e96d3140a02c3a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 14:09:58 2025 +0300
+
+    target: 9820: disable LOG
+    
+    * Not supported with OneUI 4.1 camera APK
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 268e32ac41fbeaf9385db4be1f96c013f1958567
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 14:08:23 2025 +0300
+
+    target: 2100: minor adjustments
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 400d8455015b58534bac87e3f12f6cdc22f6b20c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:58:05 2025 +0300
+
+    scripts: update_prebuilt_blobs: fixup A26 IMEI
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 243d18d7279c489c0fb2c402f351dd3ecde0ad06
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:55:12 2025 +0300
+
+    unica: patches: desixtification: fixup perms
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e5dc5a41326bcfa7484def23584ec3a3337f9d31
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:50:43 2025 +0300
+
+    .gitattributes: cleanup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3ad16dcbb368a86e7d170a57e2b61c5eec447de6
+Author: Salvo Giangreco <giangrecosalvo9@gmail.com>
+Date:   Sat Jun 14 13:48:34 2025 +0300
+
+    unica: mods: rezetprop: init
+    
+    Co-Authored-by: tisenu100 <103323979+tisenu100@users.noreply.github.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 04eb91b20881147d9a27a02734cae94b972a6bf7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:37:05 2025 +0300
+
+    blobs.yml: fixup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f86fe57ec780039c4ddbe28934654a47e8de7048
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:34:48 2025 +0300
+
+    unica: mods: preload: silence warns
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 985149f8ab9e32af7617404b830a5154c2a4f8e9
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:29:44 2025 +0300
+
+    debloat: remove inexistent file
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 964d0cb8a4833a19795f77e2698ef76040512d37
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:29:24 2025 +0300
+
+    treewide: sort fs-config files
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 856c04eddc77c8f816555911059beec7ec9191aa
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:19:23 2025 +0300
+
+    scripts: apply_modules: cleanup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 46e5524cd314640637a5384a4a19cbe666daea38
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:17:27 2025 +0300
+
+    scripts: update_prebuilt_blobs: add all prebuilts models
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit a67ea523a75bbbff3b1a797098c7185a7f57783f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 13:01:43 2025 +0300
+
+    target: r8s: move wpa_supplicant here
+    
+    * Only r8s uses this file and it's from OneUI 6
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 9c98706fc51da3d2a820c675b9f8dc7f5878dd98
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:58:36 2025 +0300
+
+    unica: patches: deknox: move to mods
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 7041b69b84e5e6c9b9ba79bd9f4ac2af0317cb9f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:56:51 2025 +0300
+
+    unica: patches: vndk: add VNDK 34
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f5e787ddd32613f68bbcb210dc2ba8526706688f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:52:03 2025 +0300
+
+    unica: patches: mass_cam/pf: switch to r12s INTL model
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f0bb7be4bc89ae261346c59637d0a5b86040adf4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:50:03 2025 +0300
+
+    unica: patches: miscs: fixup naming
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 80de083205d7e53f44d371924d0a964988cbf05f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:48:00 2025 +0300
+
+    unica: patches: deknox: nuke MDF
+    
+    * Switch to A26 blobs for this
+    
+    Co-Authored-by: Louis Poier <lpoier7@proton.me>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3c98e54d236d3ebcbd81cd2a0f3596c788c25943
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Jun 14 12:35:00 2025 +0300
+
+    platform: exynos990/2100: remove Polarr SDK
+    
+    * It seems like only 9820 requires this
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 8193d1e02374ca672d8a9eebafb373d9b166afa2
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 14 11:02:25 2025 +0800
+
+    unica: patches: exynosation: fixup
+
+commit 75de7b1e4e537891eaa17d9de91866c9bdc5d43e
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jun 13 21:18:37 2025 +0000
+
+    prebuilts/samsung/e1sxxx: update blobs to S921BXXU6BYE7
+
+commit 6498a47ca481f16a23801d648ad9db5d8271125c
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jun 13 21:00:15 2025 +0000
+
+    prebuilts/samsung/e2sxxx: update blobs to S926BXXU6BYE7
+
+commit 5771de920a8c6e1149c6379b5680256325be7ad2
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Fri Jun 13 20:46:00 2025 +0000
+
+    prebuilts/samsung/p3sxxx: update blobs to G998BXXSFHYE1
+
+commit 69a0865a7e1eeab9bcd75c38950caf7571b2a642
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 13 22:43:14 2025 +0300
+
+    scripts: update_prebuilt_blobs: add S24, S24+, S21U
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e1f2b3592f24142941934436fedf2f293483ac5c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 13 22:40:47 2025 +0300
+
+    platform: exynos9820/990: switch to A26 for Polarr SDK
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d64f1e24ce58cb0c4e8185652b2458c6e24fe6fd
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 13 22:37:33 2025 +0300
+
+    platform: exynos9820: downgrade SamsungCamera to OneUI 4.1
+    
+    Co-Authored-by: duhansysl <duhan2002@gmail.com>
+    Co-Authored-by: Anan Jaser <ananjaser@gmail.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 4356a88dabe9e7636686dada40abdf7c3423a869
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 13 22:07:12 2025 +0300
+
+    unica: patches: exynosation: keep source SSRM/SDHMS
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 64f70bceceb488ec6fd2a5bc8c1aad2bc39860d5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 9 19:00:01 2025 +0300
+
+    target: all: set proper DVFS configs
+    
+    * 9820: dvfs_policy_makalu_xx
+    * 990: dvfs_policy_exynos990_xx
+    * 2100: dvfs_policy_exynos2100_xx
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit cc43068a0cb3e30ef82e6f167cdad1fc72680586
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Jun 9 18:53:50 2025 +0300
+
+    unica: patches: product_feature: fixup DVFS sed
+    
+    * S24 and S25 use dvfs_policy_default for DVFS_FILENAME which is also the string for DVFS_FILENAME_DEFAULT
+    * Fortunately, DVFS_FILENAME_DEFAULT is "dvfs_policy_default," so if we search for dvfs_policy_default in quotes we will find the proper entry only
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e249f050ae81c18d4947f31ef67d4d8cdc2b71fc
+Author: Mesazane <138877877+Mesazane@users.noreply.github.com>
+Date:   Sat Jun 7 23:54:40 2025 +0700
+
+     target: z3s: patches: sff : fix missing sff value for enabling the 5x button #221
+    
+    additional thing I also forgot to add.
+
+commit 754967cf101590d3c3170d011b6137f522d98722
+Author: Mesazane <138877877+Mesazane@users.noreply.github.com>
+Date:   Sat Jun 7 21:31:55 2025 +0700
+
+    target: c2s: patches: sff : fix missing sff value for enabling the 5x button
+    
+    I forgot to change the value of line 78 yesterday, since both line 79 and 78 is necessary for the button to appear
+
+commit d99af037be655052dfe17550e3bbaa486276711e
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 22:27:39 2025 +0800
+
+    platform: exynos2100: Enable FUSE Passthrough
+
+commit 29aa3238ad80507d056405250030a284174cfe08
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 21:51:07 2025 +0800
+
+    platform: exynos2100: patches: Upgrade remaining blobs to OneUI 7
+
+commit fea9c57df0fd948a9afcca420970e6f69479ad36
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 21:00:40 2025 +0800
+
+    platform: 2100: patches: Update libImageTagger to OneUI 7
+    
+    This should fix NPU crashes
+
+commit 781b426d0592688b077e98dc6d5241603272ef79
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 20:58:44 2025 +0800
+
+    platform: 990/2100: remove snap NDK v2
+    
+    I just hope this doesn't break anything with Portrait mode
+
+commit 3db81d6c5320a94dd1feea7a78e57734669e4ecc
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 20:55:05 2025 +0800
+
+    prebuilts: p3sxxx: update blobs to OneUI 7
+
+commit 92e9a180108a5e810e0ba92f6ce769de2c17a25e
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Jun 7 11:31:52 2025 +0800
+
+    unica: mods: bootlogo: delete svb_orange.jpg
+    
+    Removes the 'Press power button to continue' message for more cleaner boot splash.
+
+commit 18911c72a6ab25b2681e64810878b9f59308d91f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 22:06:58 2025 +0300
+
+    unica: patches: product_feature: commonize mAFPC nuking
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit eb9bb42af4317ac3444a2c91ee4f2fb1f2b1bffe
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 22:04:18 2025 +0300
+
+    unica: patches: stock_blobs: commonize VAULTKEEPER and ENGMODE patches
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1c74639f73b4e02c2c2642389128109c942732dd
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 21:54:56 2025 +0300
+
+    unica: mods: settings: add 3 patches
+    
+    * 0002-Disable-screenshot-detection.patch
+    * 0003-Allow-app-downgrade.patch
+    * 0004-Bypass-app-target-SDK.patch
+    
+    Co-Authored-by: Salvo Giangreco <giangrecosalvo9@gmail.com>
+    Co-Authored-by: Utkustnr <utkuustuner@proton.me>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3a1259ce0ad0b5027afa162bf35cae4f690dc337
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 21:25:47 2025 +0300
+
+    unica: mods: applock: init
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 33598b7fb356703348dcaa4ebfb3703f6d51ad39
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu Jun 5 17:12:54 2025 +0000
+
+    build(deps): bump external/apktool from `b8710d0` to `42f94d5`
+    
+    Bumps [external/apktool](https://github.com/iBotPeaches/Apktool) from `b8710d0` to `42f94d5`.
+    - [Release notes](https://github.com/iBotPeaches/Apktool/releases)
+    - [Commits](https://github.com/iBotPeaches/Apktool/compare/b8710d002b516416077f4735be2d7474c6018e6d...42f94d54aa8fa0e7ed8842f5791d59f49d9d41d5)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/apktool
+      dependency-version: 42f94d54aa8fa0e7ed8842f5791d59f49d9d41d5
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 00fa60eed83f8e235e4c26c58eca0cd64f6c9ebb
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 21:14:03 2025 +0300
+
+    platform: exynos9820: force Extra Dim support
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3854fa710969bdb3193a18aec3752fcca908dfb4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 20:49:59 2025 +0300
+
+    unica: mods: settings: disable 5GHz country check
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1af25d4ad2410675e5fba5b36175a7fab92128e5
+Author: Mesazane <138877877+Mesazane@users.noreply.github.com>
+Date:   Fri Jun 6 20:35:47 2025 +0700
+
+    target: c2s: patches: sff : fix camera zoom button
+
+commit 74222ca39e3744401b1b3052f3f11cccfcfb471a
+Author: Ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Fri Jun 6 20:34:16 2025 +0700
+
+    target: c2s/z3s: patches: camera: fix camera zoom level
+
+commit 4916acd5f7edd185eb9b933f1e8b67721c8ea9c7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 20:31:02 2025 +0300
+
+    unica: mods: csc: set sidekey to power menu as default
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit a621624bee176cf3fa5d0b18ebc17f5e56179ed0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Jun 6 20:11:41 2025 +0300
+
+    unica: mods: bootlogo: init
+    
+    * Images are from:
+    ** 1440p: S24+ OneUI 7
+    ** 1080p: S24 OneUI 7
+    
+    * Patches applied to the images:
+    ** tar --delete booting_warning.jpg -f up_param_1080p.bin
+    ** tar --delete booting_warning.jpg -f up_param_1440p.bin
+
+commit 98f9b66b11a5167fc083abe5ea70e97a382832a1
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 22:58:11 2025 +0300
+
+    unica: patches: product_feature: fix a bomb
+
+commit 9d589753ae783c0f7affa0cdf8c0bf5dde817f79
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 21:53:56 2025 +0300
+
+    unica: mods: settings: move cached app freezer here
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5fdf59e6405daa842f9784562de26694238ca8a0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 21:53:42 2025 +0300
+
+    unica: mods: settings: gestures: add Settings patch
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f0ec6644e1d93ca8e81b9ecba067682b3875fc82
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 21:50:31 2025 +0300
+
+    unica: patches: product_feature: add ACH and VirtualVIB patches
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 122ed808e523a488b3f4298f844cbaec3c56dafb
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 17:32:25 2025 +0300
+
+    unica: mods: settings: enable gestures by default
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2b164bcd8fd66d5c54cc780c03658efef4e72211
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 16:56:21 2025 +0300
+
+    target: r9s: use XSG CSC
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit be2fd9dfe040992f6fd6251ccda926dca2dcdab4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Jun 4 16:56:06 2025 +0300
+
+    unica: debloat: keep Google Messages
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e56914c2dccaab812e4957bb32dc73f359c8e1fe
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Jun 4 12:59:25 2025 +0800
+
+    unica: patches: product_feature: fix multi-resolution disabling patch
+    
+    There's been some changes with the June patch
+
+commit 555d536deb54d5593b8936f13ba08c76743f1b89
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 23:56:31 2025 +0300
+
+    unica: patches: product_feature: add HW mDNIe patches
+    
+    * For low-end display phones
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d45c697523b38d04b016141b99d13bb0e95c372f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 20:37:50 2025 +0300
+
+    unica: patches: product_feature: add multi-resolution disabling patch
+    
+    Co-Authored-by: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d0640968a4b8f2e7a31a9edcf3981cb8d8bc9215
+Author: Nhat Vo <nhat.vo@dreampayments.com>
+Date:   Tue Jun 3 18:14:46 2025 +0300
+
+    unica: mods: preload: preload dummy Google Telemetry APKs
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 304c4e8e006a09a6a2a3710a0e4241023fe06b24
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 18:11:45 2025 +0300
+
+    unica: mods: preload: cleanup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit da2dcc3da0951f9fad4503a21b177061dfa58998
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat May 10 23:13:31 2025 +0200
+
+    unica: mods: import preload from unica
+
+commit 079de82ee6a9f3c636635af6967112705f812191
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 18:03:10 2025 +0300
+
+    unica: debloat: fixup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c5806d98e481c3b0f4f59c99edec260b2e2c85f7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 18:02:53 2025 +0300
+
+    target: all-r8s: enable Wi-Fi 6 Hotspot
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5e2053bd47e0825f41781c3b050c41fd6dfb3784
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 17:37:37 2025 +0300
+
+    target: r9s: debloat mAFPC
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3fe0aa860d16f0f01d7b6cccfc5dc9e6fa59c474
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Jun 3 17:37:21 2025 +0300
+
+    target: r8s: fix debloat
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f689951055ac541c41bef78126239aa2b42cb4a9
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Mon Jun 2 11:32:33 2025 +0800
+
+    target: r9s/o1s/t2s/p3s: Enable hotspot Wi-Fi 6 standard
+
+commit b72dfe996103e6ebf59e2cb74397bde4dc1c2120
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 23:15:56 2025 +0800
+
+    platform: exynos2100: include vendor_boot
+
+commit df1100f1e4e3acd3a789535a37e1dd8bb4001f69
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 23:14:44 2025 +0800
+
+    target: r9s: fixup
+
+commit d8ac8d147028606395a1469582bbd98a4449b684
+Author: osrott61-gh <osrott61@dev.extremerom.org>
+Date:   Sun Jun 1 16:21:26 2025 +0200
+
+    add more pictures
+    
+    hupefully :tm: the final commit
+
+commit 140c6fc633a9b219b12e4251984e5e9f252d452a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 1 16:44:03 2025 +0300
+
+    scripts: build_flashable_zip: fixup logic
+
+commit 7b8a7260922caa9c5eb7ff575ad16b527b38db3b
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 14:27:41 2025 +0800
+
+    platform: exynos2100: minor adjustments for r9s
+
+commit 0a37c9499d47d498ebb5a80dcddd198a4f669c16
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 13:03:50 2025 +0800
+
+    target: r9s: change bad IMEI
+
+commit 5ea6a0095bc32e5cec4784e9362ba5fe5e3c8bd3
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 12:53:37 2025 +0800
+
+    target: r9s: initial r9s build support
+
+commit 8a233980eee98c4c1059f695aa44327b13d7b249
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 12:51:29 2025 +0800
+
+    target: t2s/o1s: update overlay
+
+commit 4f5763773391fdc92230c5d92887d9d228b36f60
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 1 00:47:38 2025 +0300
+
+    target: set stock models
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f2250d6e03ad7558384b34c6f9c6a53a93f23bfb
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Jun 1 00:41:38 2025 +0300
+
+    unica: debloat: keep vendor sepolicy version
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 8bfc652c170b49e3aff7c112c51e62c0fa9e0689
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 23:54:48 2025 +0300
+
+    unica: mods: csc: spoof cosmetic CSC model number
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 7371ed2b1f3e7fe2905fe67ef4571ccbe56be894
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 23:45:16 2025 +0300
+
+    unica: mods: device_image: nuke
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 199b0486346fd64ee1622d22e2da6c598ee6e58c
+Author: Ocin4ever <winicoco24@gmail.com>
+Date:   Sat May 17 18:12:41 2025 +0200
+
+    unica: mods: settings: Introduce Show-real-device-model-number.patch
+
+commit 44a33a951237934cd72ddf100947a1df1e59bc74
+Author: Ocin4ever <winicoco24@gmail.com>
+Date:   Sat May 31 22:30:38 2025 +0200
+
+    unica: patches: knoxpatch: update SamsungPropsHooks
+    
+    * spoof Accessiblity.apk
+    * spoof ExpertRAW
+
+commit f383f19fc51c3fa401b81069f1ac85ef45ab4527
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Jun 1 00:40:07 2025 +0800
+
+    target: 2100: update overlays
+
+commit 82070dac2f355b3ea990c88f1ee8915ba1243574
+Author: osrott61-gh <osrott61@dev.extremerom.org>
+Date:   Sat May 31 17:50:44 2025 +0200
+
+    add pictures stage 2
+
+commit addf69bb5ed6b134bfd33b7a018e2dd19a8edd2f
+Author: osrott61-gh <osrott61@dev.extremerom.org>
+Date:   Sat May 31 17:26:14 2025 +0200
+
+    add pictures to the wiki
+
+commit 44fd56808e184d0cdf3bb2c40c7bca56be8d99f7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 18:10:05 2025 +0300
+
+    target: beyond: use circle punchhole type
+    
+    * Samsung dropped S10 punchhole stuff so animation is broken, nothing we can do about it
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 83e74a8e4efc729a5484a099d86afc5746179a09
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 18:02:19 2025 +0300
+
+    Revert "unica: patches: remove bt-lib-patch"
+    
+    This reverts commit 120ba469d5fd625944d5eeb3b4c37039097ee201.
+
+commit e5ab95790599211fde93c36fd5223704071b8bc3
+Author: Louis Poier <lpoier7@proton.me>
+Date:   Sat May 31 18:02:11 2025 +0300
+
+    unica: debloat: add a lot more apps
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 826933929994b84c6aba2efa3b27463c79d0611d
+Author: Ksawlii <ksawery.blaszczak@proton.me>
+Date:   Sat May 31 16:06:28 2025 +0200
+
+    scripts: make_rom: globally export NO_COMPRESSION
+    
+    Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+
+commit c7f9a878f2e5ec207926b6ecc72b09e084d7d026
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 16:58:30 2025 +0300
+
+    scripts: apktool: fixup after bump
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 120ba469d5fd625944d5eeb3b4c37039097ee201
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 16:58:05 2025 +0300
+
+    unica: patches: remove bt-lib-patch
+    
+    * Useless now since all platforms support VaultKeeper
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 4ce09adfa83ac63d3d3873081f7a6901c2c809a6
+Author: Ksawlii <ksawery.blaszczak@proton.me>
+Date:   Sat May 31 14:39:12 2025 +0200
+
+    scripts: build_{flashable_zip,odin_package}: fixup
+    
+    Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+
+commit 2cf0ffe3b5327bc740668abbf33542489cbee3ad
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 15:35:11 2025 +0300
+
+    target: 9820/990: heavily update overlays
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 9878ee6a14ece611d82adfed1e9ea68cfe6bb0a0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 15:35:02 2025 +0300
+
+    target: r8s: debloat mAFPC
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1c48005985dc1c3f984eb822d5f562bf4be5285d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 14:50:03 2025 +0300
+
+    unica: mods: settings: disable ASKS
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 34bf036248e352d209c59e2c82e208b0f8a44211
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 14:41:41 2025 +0300
+
+    unica: patches: spen: fixup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit ed67459e67db5152c700ad3c162cc37fd9658e2c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 14:41:29 2025 +0300
+
+    target: all: adjust some ff stuff
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c66821ae23b7d2a97165f5006f1eba073af5b7d7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 14:14:19 2025 +0300
+
+    gitattributes: add PDF files
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f4551710b6b193266158ea68c5e2aa598bb98a98
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 13:31:42 2025 +0300
+
+    platform: exynos2100: minor cleanup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2f16a1e9365d56522901ec961567f6339e383d01
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 13:28:40 2025 +0300
+
+    unica: config: push missing change
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c2c98ece5c051be850ad9c15493f8c330c71ca09
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 13:27:06 2025 +0300
+
+    scripts: apktool: remove srp patches
+    
+    * Incompatible with latest APKTool and there doesn't seem to be much use for it anyways
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d3cc1aaa6e65ee7e73b983af998b9d0fee77a19b
+Author: Salvo Giangreco <giangrecosalvo9@gmail.com>
+Date:   Sat May 31 13:20:43 2025 +0300
+
+    platform: 9820/990: debloat kSMBd
+    
+    * Requires kernel support, only possible on 5.4 and up
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 15255f147f33a23bfd174d215b0d36d8fc100270
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 13:09:35 2025 +0300
+
+    platform: all: only clone main branch for kernels
+    
+    * Otherwise we waste too much space and there is no point to do that
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit bc1de79cea9769ec99b02d146dc0cb250c9e881e
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 13:00:33 2025 +0300
+
+    unica: mods: csc: add CSCs from OWO OMC
+    
+    * Extract optics partition and prism/etc/carriers folder
+    * Update omc_data.json, sales_code_list.dat and SW_Configuration.xml to add the new CSCs
+    * sed s/OWO/OXM/g optics/configs/carriers/single/*/conf/omc.info
+    * sed s/OWO/OXM/g prism/etc/carriers/single/*/opt/appres.json
+    * Also replace OWO to OXM in SW_Configuration.xml for the new CSCs
+    * And remove EUY and CPW CSCs as they already exist in OXM as well
+    
+    Co-Authored-by: Yagzie <yagzie11@gmail.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 9171574975f4ec689a8fe495e4aad7332b90ef1e
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 12:59:30 2025 +0300
+
+    scripts: internal: support applying modules to optics and prism
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 275e608cd926ae88762cf37ca1700b3a7d74dde9
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 12:40:45 2025 +0300
+
+    unica: patches: miscs: remove cutout protection patch
+    
+    * SEC removed this feature in 7
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit d3bc95be5cba87a9ea573be9a9b17e0161df6301
+Author: Ksawlii <ksawery.blaszczak@proton.me>
+Date:   Fri May 30 22:16:28 2025 +0200
+
+    scripts: build_{flashable_zip,odin_package}: introduce disabling brotli compression
+    
+    Now with --no-compression flag we can disable brotli compression to
+    speed up builds
+    
+    Co-authored-by: Salvo Giangreco <giangrecosalvo9@gmail.com>
+    Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+
+commit ef53949deb2cb7ba697c67fa7bf93f0ebb5c45b5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 12:32:51 2025 +0300
+
+    unica: mods: settings: set Multi-User count to 8
+    
+    * This is what Samsung does on tablets which have this feature
+    
+    ```
+        static {
+            DEFAULT_MAX_USERS = IS_TABLET ? 8 : 1;
+            DEFAULT_ENABLE_STATUS = IS_TABLET;
+        }
+    ```
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 6e9c05cf9e177ef5485629ba708677607ecfd66b
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 31 12:32:34 2025 +0300
+
+    unica: mods: settings: move Multi-User here
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 76fd3276c5039eb27eaf24269e3521e276c61256
+Author: nalz0 <77935183+nalz0@users.noreply.github.com>
+Date:   Fri May 30 19:39:31 2025 +0100
+
+    Update customize.sh
+    
+    Added Multi Users Support (I have no idea if the code works as I'm a beginner in writing code but I'm sure it can be built on)
+
+commit 70467c07f74153cf1b5a3817addf84db12a100d0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 21:20:16 2025 +0300
+
+    platform: exynos9820: stock_blobs: also downgrade VaultKeeper to HIDL here
+    
+    * And I was wondering why it's broken on this platform, lmao...
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit aedd2db8d7b6df7affbdeaed28dc0638d82330b2
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 21:19:52 2025 +0300
+
+    platform: stock_blobs: also remove AIDL ENGMODE lib
+
+commit d176d64533de0f165877e5f503cc710ce13bec41
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 21:19:13 2025 +0300
+
+    platform: stock_blobs: move ENGMODE downgrade here
+
+commit fb02b52ca7d2626ee7e57c6619ea632d55040273
+Author: Louis Poier <lpoier7@proton.me>
+Date:   Fri May 30 21:17:41 2025 +0300
+
+    unica: patches: desixtification: fix ENGMODE
+
+commit 7690522acac1a1295d1c20a426bcb979f894fb28
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 21:14:30 2025 +0300
+
+    unica: patches: exynosation: fixup
+
+commit 3d6c312ddceb3339da8134bd4732c48e35d491d8
+Author: Ksawlii <ksawery.blaszczak@proton.me>
+Date:   Fri May 30 14:40:24 2025 +0000
+
+    unica: mods: tweaks: always use ultrasonic FOD animation
+    
+    Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+
+commit 1c5e2128ebd9f36ecdb0254c5ab297b253834f23
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 21:13:24 2025 +0300
+
+    unica: patches: exynosation: set ESSI props
+
+commit 886d3dc28822c38cf8b929111cbfa193a4c685d3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 19:46:48 2025 +0300
+
+    platform: exynos9820: remove RenderScript
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2f9d4e50716e2e01c4d849f0f1b96e5aa73e08af
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 16:39:19 2025 +0300
+
+    buildenv: add erom and extremerom alias
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c7efa045091155cc9ba047f538d35214b25e13e6
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 16:36:11 2025 +0300
+
+    platform: update HFR flags once again
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 74fa7fcf254f10b607c800f8bb27edf198b7f224
+Author: Mesazane <farrel.fathinwibowo@gmail.com>
+Date:   Fri May 30 14:29:29 2025 +0700
+
+    Exclude beyondx from the hrm patch
+
+commit ef5ca6112a7d57ed55bf448f29342aca991b77b7
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Fri May 30 15:34:24 2025 +0800
+
+    platform: exynos2100: Build kernel in-tree
+    
+    ExtremeROM and ChicletKernel need to be tested hand-in-hand, as not
+    doing this creates feature imparity.
+    
+    Build ChicletKernel in-tree. Use a new kernel_tmp dir which should
+    not be cleaned unless you are changing SoCs. Cleanbuild/changes are
+    handled by the Kernel's Kbuild system. As such, this change adds
+    ~3-5 minutes extra build time on the first build, but only 10-30s on
+    all subsequent builds.
+    
+    Signed-off-by: Fred <74693315+xfwdrev@users.noreply.github.com>
+
+commit 770464f32ec2e79de497edbc04a1c0c99f9c98ba
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 00:25:17 2025 +0300
+
+    Revert "platform: exynos9820: introduce protected_content module"
+    
+    * Broken on S25 base for now
+    
+    This reverts commit 0d082d593d32526afa8b21796e068e7e63430723.
+
+commit dddbf3f41282f4dd9e2efb0e239cfb3aaa3c80f3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 00:15:12 2025 +0300
+
+    platform: exynos9820: extremekrnl: bump KernelSU-Next to v1.0.7
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 37ee2ab8c54007916b402413a655547884406de7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri May 30 00:12:41 2025 +0300
+
+    platform: exynos9820: extremekrnl: fixup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 7ea53a34e67605e598026f0ff49e248d1f8c009c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 22:16:10 2025 +0300
+
+    unica: mods: tweaks: enable cached app freezer
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e93b5a0c4f16bc740ca11696fa23b05d3405243c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 22:12:57 2025 +0300
+
+    platform: exynos9820/990: enable IncrementalFS
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1651fbb448252cf7ac2b1899e10e4faa618f015f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 22:01:49 2025 +0300
+
+    platform: exynos9820/990: keep UFFD GC enabled
+    
+    * We have UFFD GC kernel support now :D
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 67df946e544b7fcfc4f7b7e0a07eb40ccfbf6c10
+Author: Ksawlii <ksawery.blaszczak@proton.me>
+Date:   Thu May 29 18:46:03 2025 +0000
+
+    platforms: exynos{9820,990}: Don't use one kernel tmp dir for both platforms
+    
+    This can save some time since cleanup won't be needed to build ROM/Kernel for target with other Soc.
+    
+    Signed-off-by: Ksawlii <ksawery.blaszczak@proton.me>
+
+commit d1a22393633b46eaf6a28ae6913f1a0e0f24a7d0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:54:20 2025 +0300
+
+    platform: exynos990: patches: camera: c1s/c2s: add OFI libs
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 081dc1021c87cf7b15623c1e44ed74419c632494
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:51:25 2025 +0300
+
+    unica: patches: product_feature: disable auto brightness patch for type 4
+    
+    * We use kernel hax for this
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 0d082d593d32526afa8b21796e068e7e63430723
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Thu May 8 10:46:17 2025 +0200
+
+    platform: exynos9820: introduce protected_content module
+    
+    * Samsung introduced a check for the 10 series to disable the extra dim feature
+    * This check was added back in One UI 4 and is still present, which is why we need to patch it.
+    * A12 and lower devices do not have the "ro.surface_flinger.protected_contents" property.
+    * We cannot add it because it will break features, so we need to bypass it.
+
+commit 5c2b4229f30526e4ba113acce38975a12a7220e0
+Author: Ocin4ever <winicoco24@gmail.com>
+Date:   Wed May 28 23:03:17 2025 +0200
+
+    unica: pathes: stock_blobs: add stock gamedriver props
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2a24ca0a5ec35dca4483ce73db3daec9f5d9474d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:34:04 2025 +0300
+
+    unica: debloat: keep SamsungBilling
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5b51078d760cb95fb74aec6a9ec9b88d8c731641
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat May 10 17:49:20 2025 +0200
+
+    .gitignore: ignore WSL files
+
+commit 52201344a2b86cf204a1fb44582caf61a669e34e
+Author: Ocin4ever <winicoco24@gmail.com>
+Date:   Wed Apr 30 23:53:12 2025 +0200
+
+    .gitignore: ignore macOS files
+
+commit d5c24dd9b3e77017ae0803962232991702f83a14
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:29:35 2025 +0300
+
+    platform: exynos990: patches: miscs: update HFR props
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 32aca8577b72d69b16b630e1deb1b52317fe4f5f
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:24:23 2025 +0300
+
+    target: r8s: disable Adaptive HFR
+    
+    * Causes display glitches on this model
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c114b9ccc5d14da93c03f5be4d6af1a7424ff00f
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Tue May 13 21:06:48 2025 +0200
+
+    target: 990/2100: enable SuperFast Charging
+    
+    * Somehow S25 Ultra does not have this????
+    
+    Co-Authored-By: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 83df104413b0eb63495d0908c07f08d03c1f1e85
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:13:45 2025 +0300
+
+    platform: exynos2100: remove libhwui downgrade
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit de730669800c76946e7ab15a07b18631ca9775c0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Thu May 29 21:13:08 2025 +0300
+
+    platform: exynos2100: disable Vulkan
+    
+    * For some reason it breaks C2 on this platform
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 0070434542277596e628147c9341ae3bfbd30480
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat May 10 21:14:07 2025 +0200
+
+    platform: exynos990: miscs: enable vulkan api
+
+commit 5d521a5c5d008cc2a958d3e687eeeb5ac935b2a7
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat May 10 21:13:59 2025 +0200
+
+    platform: exynos2100: miscs: enable vulkan api
+
+commit 1b335597c970efbddf3559a10b90aba955880696
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Sat May 10 21:13:27 2025 +0200
+
+    platform: exynos9820: miscs: enable vulkan api
+
+commit 71afc223711bb138d3a2a84f2b9a01c51e502724
+Author: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+Date:   Thu May 29 18:35:47 2025 +0200
+
+    targets: postinstall: Use common kernel on LTE models
+    
+    The LTE images don't differ at all from the 5G images.
+    Only flash the LTE DTBO on these models.
+    
+    Signed-off-by: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+
+commit 39b35f1c237b13a4af6428cb5f963c5477525517
+Author: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+Date:   Wed May 28 21:49:27 2025 +0200
+
+    platforms: exynos{9820,990}: Build kernel in-tree
+    
+    ExtremeROM and ExtremeKernel need to be tested hand-in-hand, as not
+    doing this creates feature imparity.
+    
+    Build ExtremeKernel in-tree. Use a new kernel_tmp dir which should
+    not be cleaned unless you are changing SoCs. Cleanbuild/changes are
+    handled by the Kernel's Kbuild system. As such, this change adds
+    ~3-5 minutes extra build time on the first build, but only 10-30s on
+    all subsequent builds.
+    
+    Signed-off-by: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+
+commit d857667f1236d65bf50fbe229c58df7256eaeacd
+Author: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+Date:   Wed May 28 21:49:01 2025 +0200
+
+    project: buildenv: Add kernel_tmp dir
+    
+    This is in preparation for building kernels in-tree.
+    
+    Signed-off-by: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+
+commit 91ed6f851a4003dc6a7b0a8ab13f8f1c6c245c7e
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu May 29 17:04:44 2025 +0000
+
+    build(deps): bump external/erofs-utils from `620bf01` to `155cc6c`
+    
+    Bumps [external/erofs-utils](https://github.com/sekaiacg/erofs-utils) from `620bf01` to `155cc6c`.
+    - [Release notes](https://github.com/sekaiacg/erofs-utils/releases)
+    - [Commits](https://github.com/sekaiacg/erofs-utils/compare/620bf019a3eb6a9a2d8fa807a3034e5cc2b38d8a...155cc6c6ce5cd90e0797b6464299518b674d4493)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/erofs-utils
+      dependency-version: 155cc6c6ce5cd90e0797b6464299518b674d4493
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit d56326a63cbe9c5ae0b9c0a9756dc34d700e3e9d
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu May 29 13:10:36 2025 +0000
+
+    prebuilts/samsung/r0qxxx: update blobs to S901EXXSCFYE3
+
+commit 12ad64c2676a77a4b20bc78f8886a66683df4c6b
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Thu May 29 13:08:28 2025 +0000
+
+    prebuilts/samsung/a73xqxx: update blobs to A736BXXUAFYE6
+
+commit d549172ae1d2478b95cde27c2383eeeb162612bb
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed May 21 16:47:47 2025 +0000
+
+    build(deps): bump external/apktool from `2086d80` to `b8710d0`
+    
+    Bumps [external/apktool](https://github.com/iBotPeaches/Apktool) from `2086d80` to `b8710d0`.
+    - [Release notes](https://github.com/iBotPeaches/Apktool/releases)
+    - [Commits](https://github.com/iBotPeaches/Apktool/compare/2086d80a48adfa85919bde4dd152a3f3689db410...b8710d002b516416077f4735be2d7474c6018e6d)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/apktool
+      dependency-version: b8710d002b516416077f4735be2d7474c6018e6d
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit e4f396df09698ac841ae1aefb8c2414623b05ac7
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Thu May 8 16:40:05 2025 +0000
+
+    build(deps): bump external/img2sdat from `f1aff52` to `601317e`
+    
+    Bumps [external/img2sdat](https://github.com/salvogiangri/img2sdat) from `f1aff52` to `601317e`.
+    - [Commits](https://github.com/salvogiangri/img2sdat/compare/f1aff524fe7a98a93bed32a90bd41464d7af5f6f...601317ed0bf502eb8facdd048f2d75dc75ffcd53)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/img2sdat
+      dependency-version: 601317ed0bf502eb8facdd048f2d75dc75ffcd53
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit b335e91d89adc0273a76ee32e4029d4981ca4e54
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Apr 30 16:43:34 2025 +0000
+
+    build(deps): bump external/android-tools from `62b96c7` to `f29ad35`
+    
+    Bumps [external/android-tools](https://github.com/salvogiangri/android-tools) from `62b96c7` to `f29ad35`.
+    - [Commits](https://github.com/salvogiangri/android-tools/compare/62b96c73fdc8ded58ae04c4c0873f7e738c75c41...f29ad35e966897599e8d28c65c29ffe184fd6d74)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/android-tools
+      dependency-version: f29ad35e966897599e8d28c65c29ffe184fd6d74
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit b3754890f66056ca51d38018daba4356ff19d46c
+Author: Lucas Gabriel <lucmsilva651@gmail.com>
+Date:   Thu May 15 12:59:42 2025 -0300
+
+    Fix width issue on ``Accountability`` README section
+
+commit 23860f9b83eb65d16b0df26b8768c6c36733afe7
+Author: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+Date:   Wed May 28 20:33:19 2025 +0200
+
+    patches: deknox: Remove some non-existent files
+    
+    These TLC libraries do not exist in the target firmware.
+    
+    Signed-off-by: Igor Belwon <igor.belwon@mentallysanemainliners.org>
+
+commit 5fb1e4a1766b6c67de131eb525f4d04ee26bdaa9
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed May 7 22:25:25 2025 +0800
+
+    target: t2s/p3s: remove UWB patch
+    
+    Official OneUI 7 is out for S21 Series, No need to disable UWB anymore
+    platform: Remove S21 OneUI 7 Light HAL patch too
+
+commit e0156747f0e14f3a0fe848ad43c3216f2187ff16
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 15:37:28 2025 +0300
+
+    platform: exynos9820: patches: miscs: fix removed line
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 56501a93173f3215380acc8afd0828cb9afbb31d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 15:24:55 2025 +0300
+
+    platform: exynos9820: patches: hrm: also add SPO2
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 2dc74581f8e66ccfb169b325ba48410165376ad3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 15:22:21 2025 +0300
+
+    Reapply "platform: exynos9820: patches: hrm: init"
+    
+    * At least this gets the reverse wireless charging light fixed
+    
+    This reverts commit 2a0fda8573bbe388e0d25be6df10d3e97409dcf2.
+
+commit 41a94019df367245b095919bc14bbed35cbe771b
+Author: =?UTF-8?q?duha=C5=84?= <duhan2002@gmail.com>
+Date:   Sat May 3 14:59:04 2025 +0300
+
+    platform: exynos9820/990: fix Device Control
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 724355631f39c6a55c59a25905659cf4125b3fa7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 14:29:27 2025 +0300
+
+    unica: patches: nfc-cases: move into product_feature
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5fa9c703e2d9de17f2c4a9c8bac93e40694246d5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 14:27:51 2025 +0300
+
+    unica: patches: deknox: nuke KMX unconditionally
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit a49c8ee2376db4b98e54f0568a7b83d7da465093
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 14:22:50 2025 +0300
+
+    unica: patches: product_feature: commonize A/B patch
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 14894bb8f113b2305df8a6a3f06adf3adc83fd39
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 14:09:11 2025 +0300
+
+    platform: exynos990: stock_blobs: remove unused vars
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 39219e44390e836726ed8df79d3d1bc75eb75dc0
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat May 3 14:08:43 2025 +0300
+
+    platform: exynos9820: stock_blobs: fixup hotword
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f675070cdbf7b933d098403e8d1f3c5789f62f70
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 16:25:38 2025 +0300
+
+    platform: exynos9820: stock_blobs: fix beyondx build
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 134b412e1e84993ef8b696a56145757d2ea4fdc6
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 21:12:48 2025 +0800
+
+    target: 2100: fixup Super HDR
+
+commit 34d7a0110ed779515a0d606c0eac5fc90f71dda9
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:58:15 2025 +0300
+
+    unica: patches: stock_blobs: keep source camera filters
+    
+    * Stock ones are too old and new ones are generic so we can keep them
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit ee32b42cbd0f60aa103b4313f729a40426b7765d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:51:17 2025 +0300
+
+    unica: patches: nfc-cases: fix typo
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 6a7d0a675772df837c4bf9d1e4d8e0ad070315aa
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:47:02 2025 +0300
+
+    unica: patches: exynosation: also grab Exynos libui.so
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 0055628fe198589cf832ea22149fdfd1f97b86d4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:45:07 2025 +0300
+
+    platform: exynos9820/990: add stock NFC case features
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f3734ad61e3d5748fc1cc227d13a1df690e8e352
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:35:51 2025 +0300
+
+    unica: patches: nfc-cases: decommonize feature XMLs
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit cb5c1fa1cfae924c91307789a741e66d78a6184e
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:30:50 2025 +0300
+
+    prebuilts: p3sxxx: fix file contexts ordering
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 606530b033512db8829a6ab2bb19780d57088dc2
+Author: Vlad1-1 <95431727+Vlad1-1@users.noreply.github.com>
+Date:   Wed Apr 30 10:29:24 2025 +0300
+
+    NFC Cases support (#51)
+    
+    * WIP: patch for nfc cases
+    
+    Needs default file permissions and selinux permissions to remove the warnings at build time
+    
+    Also Now Bar keeps showing under the case in Always On Display
+    
+    * fix: use correct c2s case dimensions
+    
+    * p3sxxx: Add LedCoverService and permissions file
+    
+    * nfc-cases: create install script
+    
+    * Fix glob pattern
+
+commit 12e7086ed6afb915350e3a9f33b10e480b2a59cd
+Merge: 6cae08af f9a8cae5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:28:57 2025 +0300
+
+    Merge pull request #78 from ExtremeXT/dependabot/submodules/external/apktool-2086d80
+    
+    build(deps): bump external/apktool from `7f7d65c` to `2086d80`
+
+commit 6cae08af17333d534f193991fa316af6e4647cda
+Merge: 21ade6b8 60b6411b
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:28:22 2025 +0300
+
+    Merge pull request #81 from renoxtv/fifteen
+    
+    beyond: update overlay dimensions
+
+commit 21ade6b8da0077f2d31bcf3cf047daa9b540abb8
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:24:36 2025 +0300
+
+    platform: debloat unsupported Hotspot overlays
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 4a2ab3d7b10b209d5293b23522d3f3a50d397d05
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:20:40 2025 +0300
+
+    target: c1s: patches: miscs: disable HFR props
+
+commit 82a227efa8d8ad2000ba78e9cbfa50dbd36763c6
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:20:04 2025 +0300
+
+    platform: exynos9820: miscs: disable HFR props
+
+commit 32bbe02e770ef65031c42563c94bf5d58f731fcb
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:18:46 2025 +0300
+
+    platform: exynos9820: miscs: move updateable APEX to customize.sh
+
+commit f0def215ed0f911a0d91a323f63471d6e13e4361
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:16:36 2025 +0300
+
+    target: c2s: fixup TARGET_HFR_SUPPORTED_REFRESH_RATE
+
+commit 7b7b391d5c426cc7de688e6ca84ba3ad433e696d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:15:28 2025 +0300
+
+    target: c1s: set HFR mode to 0
+
+commit 58130013e51f7623d46af688c9c6644244a53553
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:12:22 2025 +0300
+
+    target: all: enable Extra Brightness
+
+commit 2e8616c2cb0fff7c141b501dffef56e5e17f3277
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 10:05:08 2025 +0300
+
+    target: 9820/990: fixup Super HDR
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit f18d196028eb842fd312a6bf4d86081353bd13d9
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 21:14:55 2025 +0300
+
+    target: x1s/y2s/z3s/r8s: enable Adaptive HFR
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1aa7ce560c8e870ff3b3438650702bff0cfd5237
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Wed Apr 30 09:57:48 2025 +0300
+
+    target: r8s: fixup HFR values
+
+commit 59eedeb971ae86431c866211bdaf2bb749121b67
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 13:21:24 2025 +0800
+
+    prebuilts: p3sxxx: update wpa_supplicant to OneUI 7
+
+commit 73e4ed2764490472ad8379a18ac2e86b6258ef18
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 13:16:46 2025 +0800
+
+    Revert "platform: all: update blob list"
+    
+    This reverts commit 528251492b488584dc3ca18ab8372abe7eeb2330.
+
+commit 564ca100c9914cb39235d02bad3b03e30f2c624e
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 13:15:45 2025 +0800
+
+    Revert "prebuilts: p3sxxx: update blobs to G998BXXUEHYD5"
+    
+    This reverts commit c4d5f9064ead6a8520ea3230ce114bb329dff131.
+
+commit eb685be0bedb091981cba9bb3e5d1610e42c1f72
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 11:03:43 2025 +0800
+
+    platform: all: update blob list
+
+commit c290284cc6b45c227e8316f9c302508975adedb7
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Wed Apr 30 10:47:13 2025 +0800
+
+    prebuilts: p3sxxx: update blobs to G998BXXUEHYD5
+
+commit 60b6411b731b1790f0d3952ca8bd6d70c0420023
+Author: renoxtv <guyguygftyfty@gmail.com>
+Date:   Tue Apr 29 21:57:06 2025 +0300
+
+    beyond: update overlay dimensions
+    
+    - rounded corners for app opening is 32px now
+    - tuneup of power button location
+
+commit f9a8cae5bce33f4bed5c74d8ee27a0220812014c
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Tue Apr 29 17:06:04 2025 +0000
+
+    build(deps): bump external/apktool from `7f7d65c` to `2086d80`
+    
+    Bumps [external/apktool](https://github.com/iBotPeaches/Apktool) from `7f7d65c` to `2086d80`.
+    - [Release notes](https://github.com/iBotPeaches/Apktool/releases)
+    - [Commits](https://github.com/iBotPeaches/Apktool/compare/7f7d65c9f7506320b56df39333862bd371ba0f54...2086d80a48adfa85919bde4dd152a3f3689db410)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: external/apktool
+      dependency-version: 2086d80a48adfa85919bde4dd152a3f3689db410
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+commit 55ae1c6cb0ad321c50c0e17af977f4fbb19c82c1
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 19:27:19 2025 +0300
+
+    prebuilts: p3sxxx: fix typo
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 050a33d92e915db3aabfde5cd91cdfc6b3dc9e2b
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 19:20:59 2025 +0300
+
+    Revert "[TEMP] unica: config: use SIN CSC for source firmware"
+    
+    This reverts commit 006e193c7507b6e8d6cf56f0f8906f58d5214e5a.
+
+commit e9f1f032559a4e31f09e01262aa81ba325644411
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 19:20:32 2025 +0300
+
+    unica: patches: deknox: nuke HDM service completely
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit e0028f365c84a319bdb14e4253c8b0b0d36e7c35
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:42:23 2025 +0300
+
+    target: r8s: adjust camera night mode
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 68da41b7184191dbcbe53f7cc0205328eac5419a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:38:23 2025 +0300
+
+    target: all: enable VIDEO LOG feature
+    
+    * Except r8s
+    * Thanks @ipoij8
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1491a4abf5e5f0e17a0eba84c73c2f6cb6df0353
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:37:53 2025 +0300
+
+    target: r8s: adjust camera
+    
+    * Thx @ricci206
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit cbe67f4ca911162b1c9fb58ca1cb14f36440af5b
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:16:50 2025 +0300
+
+    target: all: fix S25U SingleTake
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1e416783270281318d8a333f0ac8fcb2508b9c80
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:16:38 2025 +0300
+
+    platform: nuke SingleTake downgrade
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 816187038afb9790129d6fb558d6f76b55ed2ffb
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 17:13:03 2025 +0300
+
+    unica: patches: pf: handle HFR 0 in CoreRune properly
+    
+    * For some reason setting 0 here breaks resolution
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit b3fdeff4f5ae32e8ae1f188269ed56045f70aaef
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Tue Apr 29 16:48:19 2025 +0300
+
+    unica: patches: pf: fixup BiometricSetting patch
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit bc65be5dfde5a3338926d43818d67ef48bb6adb3
+Author: ocin4ever <85343782+Ocin4ever@users.noreply.github.com>
+Date:   Mon Apr 28 22:48:49 2025 +0200
+
+    target: fix HFR on 9820
+
+commit 1b7955e7a048a42589080b7c5fbc725283ede932
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 23:23:49 2025 +0300
+
+    unica: patches: pf: use S24 FE libui.so for optical FOD
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 7d21db79e70c083ea5c25f5e40b11db2a9153a2e
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 23:22:21 2025 +0300
+
+    unica: patches: pf: patch BiometricSetting for optical FOD
+    
+    * Instead of grabbing a prebuilt APK, it is the same anyways
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit ee51abf81f5b7538b1188e90681cd61123619dc4
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:09:47 2025 +0300
+
+    target: all: fix display colors in vivid mode
+    
+    Co-Authored-by: chomik4305 <chomikchomik000@gmail.com>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 961740eb839868686b9648d07839f3aafa05a877
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:06:23 2025 +0300
+
+    platform: exynos2100: debloat: keep Camera SDK
+
+commit 38e102d8b73f5dcae44b4a58cbd6fc680a1b777d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:04:43 2025 +0300
+
+    target: o1s/t2s/p3s: cleanup more
+
+commit 98bdc721f7cce15a9d78eb868f1ce69035f59e0a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:03:01 2025 +0300
+
+    target: o1s: patches: remove uwb
+
+commit d1fb3cc14bbda5584a947f531ea70f7bbfc685c5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:02:27 2025 +0300
+
+    platform: exynos2100: remove ksu
+    
+    * There is no proper KSU kernel for this platform yet
+
+commit 8aae8fec226bf5ad8ddb5d873cf692df6248d5b2
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 18:00:09 2025 +0300
+
+    target: o1s/t2s/p3s: minor adjustments
+
+commit 357d1fbcefa3bdc33d77f7275a13f5a06675a3fa
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 17:56:16 2025 +0300
+
+    platform: exynos2100: patches: selinux: cleanup
+
+commit c4d7c584da30c47b2b082d848d1610eb67bd10f7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 17:48:45 2025 +0300
+
+    platform: exynos990: patches: stock_blobs: cleanup
+
+commit 61d589f86ce58da1fb2d3ef49bf4a087a857c049
+Author: the slaytanic one~ <95072066+Sexynos990@users.noreply.github.com>
+Date:   Mon Apr 28 17:42:11 2025 +0300
+
+    README.md: fix branch in markdown link (#64)
+
+commit 666f4b120d8978a992d4211b21b7b43c3353a398
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 17:31:30 2025 +0300
+
+    unica: patches: pf: add Hotspot Enhanced Open patch
+
+commit d27f6da75b5a624d19561ef87cf67d62d9a8d16e
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 08:52:14 2025 +0300
+
+    unica: config: bump to NEXT
+
+commit e75c646057f404cf6900de5d6944a8cc482ffeae
+Merge: e91adbec 82dd8eaf
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 08:50:55 2025 +0300
+
+    Merge pull request #61 from xfwdrev/fifteen
+    
+    Update targets and updates to WFD Blobs
+
+commit e91adbecaebd9e0c84d4f89dc767ab9104eed997
+Author: Mesazane <138877877+Mesazane@users.noreply.github.com>
+Date:   Mon Apr 28 12:50:28 2025 +0700
+
+    Fix Air Actions (#54)
+    
+    * Fix Bluetooth S Pen support for c2s
+    
+    added some floating features stuff
+    
+    * Fix Bluetooth S Pen on c1s
+    
+    added some ff lines
+    
+    * Supposed to fix Air Actions/Commands
+    
+    re add the required XMLs in /system/etc/Permissions/
+    re add older One UI 6 Air Command APK
+    
+    * Create test
+    
+    * Add working AirCommand.apk
+    
+    yes
+    
+    * Create module.prop
+    
+    * nuke test
+    
+    * Create template
+    
+    * add working Air Command APK for c1s
+    
+    * Create module.prop
+    
+    * nuke template
+    
+    * accidental capitalization
+    
+    I'm sleepy okay
+    
+    * Nuke unnecessary xml and apk
+    
+    * Give a more thorough description of what the patch does and update author
+    
+    * ive a more thorough description of what the patch does on c1s
+    
+    also updated author
+
+commit 82dd8eaf619ab70d3d6082f19d0a2a3bb468d1f4
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Mon Apr 28 12:04:54 2025 +0800
+
+    prebuits: p3sxxx: fix typo
+
+commit 19abdecff6131f568cf4e71afd303e0f009d1b06
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Mon Apr 28 12:02:59 2025 +0800
+
+    prebuilts: p3sxxx: update WFD blobs contexts
+
+commit cf3d3a76592420365500da9eadce7ee6c677505d
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Mon Apr 28 11:54:52 2025 +0800
+
+    prebuilts: p3sxxx: Update WFD blobs to OneUI 7
+    
+    This will also fix some connection issues with wireless display and Samsung DeX
+
+commit d62ee3c59477135765a6366f7f02aa114dc14132
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Mon Apr 28 10:08:24 2025 +0800
+
+    target: o1s/t2s/p3s: Add Wi-Fi Patch
+
+commit 7abe54bac8d213c4a38e609ad23d109144bfbcb5
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Mon Apr 28 00:41:14 2025 +0300
+
+    unica: patches: pf: fixup Wi-Fi 6 patch
+    
+    * Apparently I patched the wrong thing lol
+
+commit 596fdb86cd2da8f10fe35a46038113cf7f0acd55
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 23:34:03 2025 +0300
+
+    unica: patches: pf: commonize Wi-Fi patches
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 5d7182126b8114653301d345acb5f107ebde0fbd
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 23:23:58 2025 +0300
+
+    platform: exynos9820/990: patches: wifi: add Hotspot Wi-Fi 6 patch too
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit ab8fed0112d8a326b2c8fd8948d04af4de40611a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 23:13:14 2025 +0300
+
+    unica: patches: deknox: nuke eSE COS
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1f3a82315fc123d09522151ff4db1b9ae75fa9a7
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 22:32:48 2025 +0300
+
+    platform: exynos9820/990: patches: wifi: init
+    
+    Nukes:
+    * Wi-Fi 7
+    * Hotspot 6GHz
+    * Hotspot WPA3
+    * Hotspot DualBand
+    
+    Co-Authored-by: Louis Poier <lpoier7@proton.me>
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 1c434ca881cfb248ba304d2f6253f540311eff6a
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 18:03:36 2025 +0300
+
+    target: r8s: sff: fix Bixby wakeup
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3fd4d4c2c3a23ae1679b776956f147a64752e614
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 18:02:38 2025 +0300
+
+    platform: exynos990: fix wpa_supplicant for r8s
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 6649efb9c816a9b8b9a9f2771f4cc765ae67d2bd
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Apr 27 20:07:52 2025 +0800
+
+    target: initial support for S21 Ultra (p3s)
+
+commit b268a0a5556e2e98ca48b7cd946ddcb178308126
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sun Apr 27 20:07:17 2025 +0800
+
+    target: initial support for S21 (o1s)
+
+commit 57777ad96a4bcfe3ccdf1235fa5ab63c89c269b4
+Author: the slaytanic one~ <95072066+Sexynos990@users.noreply.github.com>
+Date:   Sat Apr 26 10:50:10 2025 +0300
+
+    Fixing the GitHub hyperlink to salvo
+
+commit 9bce98e553c0899bf2eb01a4fdcefc40acc65a56
+Author: Dimitar Chuchuliev <guyguygftyfty@gmail.com>
+Date:   Sat Apr 26 23:07:06 2025 +0300
+
+    Update beyond0 overlay
+    
+    - Screen brightness dim values from stock s10e ROM
+    - Physical power button location adjusted
+    - (WIP) Rounded corners radius adjustment, probably not perfect
+
+commit c3433d2b5879630a457b96bff9f04f4dba080837
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sun Apr 27 14:53:41 2025 +0300
+
+    unica: patches: pf: fix order of resolution and FOD patches
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 321a89e5e050a106cf5ab9851c6c9d52311cf49d
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Apr 26 21:28:15 2025 +0300
+
+    unica: patches: deknox: finalize
+    
+    * Use Tab S10 FE libandroid_servers.so, nuke more blockchain, nuke payment, nuke MPOS, nuke all Knox APKs, nuke DualDAR and HDM from Settings About Phone.
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit dc1ae890a65c277ab7e610de0dfa4a373b0c112d
+Author: tisenu100 <103323979+tisenu100@users.noreply.github.com>
+Date:   Fri Apr 25 17:13:46 2025 +0300
+
+    unica: patches: pf: add blob patch for type 3 devices
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 88944273df8dfb8b0cf7bd538f6a5665cb6875e8
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Apr 25 17:12:21 2025 +0300
+
+    Reapply "target: r8s: fix overlay data"
+    
+    This reverts commit 8aa1beb6749225c943c7a5c9789336794cf56b4d.
+
+commit 564fccc27feddc50330c52806ee31baf2217796b
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Apr 26 19:21:09 2025 +0300
+
+    unica: patches: mass_cam: use S24 FE blobs
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit c0472120e7a29fc39a9afaa78d2b7db85eda72b6
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Apr 26 19:20:20 2025 +0300
+
+    unica: patches: pf: use S24 FE blobs for optical FOD
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 0e2afed7cbc7621b15bd9e3f319d91970837d12a
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Apr 26 21:37:03 2025 +0800
+
+    platform: exynos2100: use S21 OneUI 7 light HALs
+
+commit 81f4fa93dc15c18f67672023a699c4adc34bda4d
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Apr 26 20:02:17 2025 +0800
+
+    target: initial support for S21+ (t2s)
+
+commit cb798e657b826330a128e55a47f1396d5682bb45
+Author: xfwdrev <frignacio16@gmail.com>
+Date:   Sat Apr 26 19:58:53 2025 +0800
+
+    platform: initial support for exynos2100
+
+commit 2e1984d43a73dafb410060167d5a84f494cbf2be
+Author: Enda <endadwagon@gmail.com>
+Date:   Fri Apr 25 20:42:48 2025 +0100
+
+    wiki-res: add images for wiki
+
+commit 9e7e6c81b861338187711cc581ec224052f86e3c
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Apr 26 15:27:38 2025 +0300
+
+    .gitattributes: set GIF as binary
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 585961e294a94f79f75b1d25805e58b4c9e4d808
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Sat Apr 26 15:26:46 2025 +0300
+
+    platform: exynos990: fix hotword for r8s
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+
+commit 3c7bd789ad166d0409af149f8a347196aabf44b3
+Author: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
+Date:   Fri Apr 25 12:57:19 2025 +0300
+
+    README: update
+    
+    Signed-off-by: ExtremeXT <75576145+ExtremeXT@users.noreply.github.com>
