@@ -16,7 +16,6 @@ if [[ "$TARGET_NFC_CHIP_VENDOR" == "NXP" && "$SOURCE_NFC_CHIP_VENDOR" == "SLSI" 
     system/lib64/libnfc_nxpsn_jni.so
     system/lib64/vendor.samsung.hardware.nfc_aidl-V1-ndk.so
     system/lib64/vendor.samsung.hardware.nfc@2.0.so
-    system/priv-app/NfcNci/lib/arm64/libnfc_nxpsn_jni.so
     "
     for blob in $BLOBS_LIST
     do
