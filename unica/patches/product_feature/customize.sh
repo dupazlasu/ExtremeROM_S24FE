@@ -331,3 +331,5 @@ if $SOURCE_AUDIO_SUPPORT_VIRTUAL_VIBRATION; then
         APPLY_PATCH "system/priv-app/SecSettings/SecSettings.apk" "audio/SecSettings.apk/0002-Disable-Virtual-Vibration-support.patch"
     fi
 fi
+
+SET_FLOATING_FEATURE_CONFIG "SEC_FLOATING_FEATURE_LCD_SUPPORT_EXTRA_BRIGHTNESS" "TRUE"
